@@ -1,0 +1,253 @@
+
+body{
+    display: grid;
+    place-items: center;
+    background: #07952877;
+
+  }
+
+
+.header{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(233, 244, 248, 0.523);
+}
+
+.logo {
+  background-color: transparent;
+  height: 100%;
+  width: 10%;
+  float: left;
+  padding-left: 80px;
+}
+
+.bauet
+{
+  text-align: center;
+  color: #055508;
+  font-size: 25px;
+  font: bold;
+}
+.content{
+    width:90%;
+    padding: 10px 10px;
+    background: #eeef;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73,
+                 2px 2px 5px rgba(94,104,121,0.288);
+  }
+  .content .text{
+    font-size: 33px;
+    font-weight: 000;
+    margin-bottom: 35px;
+    color: #595959;
+  }
+
+
+  
+
+  .Tmarks
+  {    
+    height: 250px;
+  
+  }
+
+  .teacher
+  {
+    float: left;
+  }
+  .code
+  {
+    float: left;
+    padding-left: 15px;
+
+  }
+  
+  .Marks
+  {
+    background-color: #ece1e1;
+    width: 180px;
+    padding-left: 15px;
+    float: right;
+    border-radius: 10px;
+  }
+
+
+  .field0
+  {
+
+    display: flex;
+    position: relative;
+
+    height: 70px;
+    width: auto;
+    padding-left: 2px;
+    outline: none;
+    border: none;
+    background: #bee8ed;
+    color: #111010;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #5775eb,
+              inset -5px -5px 10px #66db46;
+
+  }
+
+
+
+
+
+  .field
+  {
+
+    display: flex;
+    position: relative;
+
+    width: 70%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background: #ebeef3;
+    color: #111010;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px #adb2c7,
+              inset -5px -5px 10px #e2d2d2;
+
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    overflow:auto;
+    text-align: justify;
+  }
+  .field1
+  {
+
+    display: flex;
+    position: relative;  
+    /*height: 40%*/
+    width:auto;
+    padding: 6px 30px ;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background: #ebeef3;
+    color: #111010;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px #adb2c7,
+              inset -5px -5px 10px #e2d2d2;
+  
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    margin:auto;
+    tab-size: 10;
+  }
+
+  .field1 input
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    
+  }
+
+  /*css*/
+
+  
+
+  /*css*/
+
+
+
+  
+  .field2
+  {
+    display: flex;
+    position:relative;
+    
+    /*height: 40%;*/
+    width: 300px;
+    padding:6px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background: #ebeef3;
+    color: #111010;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px #adb2c7,
+              inset -5px -5px 10px #e2d2d2;
+    text-align: justify; 
+    margin: auto;                 
+    }
+  .box
+  {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+  }
+
+  
+
+
+
+
+
+  .field input{
+    
+   
+    padding-left: 45px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background: #eaebed;
+    color: #090909;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #c5c7ce,
+                inset -5px -5px 10px #ffffff;
+  }
+  .field input:focus{
+    box-shadow: inset 2px 2px 5px #90a5f082,
+                inset -2px -2px 2px #fa76765c;
+  }
+ 
+
+
+
+
+
+
+
+  
+    
+/*previous & Next Button start*/
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  /*previous & Next Button end*/

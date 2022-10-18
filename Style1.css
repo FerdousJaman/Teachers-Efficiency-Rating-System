@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url(https://www.hmablogs.com/wp-content/uploads/2021/07/backgroundimg-scaled.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+    width:auto;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(233, 244, 248, 0.523);
+  }
+  
+  .logo {
+    background-color: transparent;
+    height: 100%;
+    width: 7%;
+    float: left;
+    padding-left: 60px;
+  }
+  
+  .bauet
+  {
+    text-align: center;
+    color: #055508;
+    font-size: 25px;
+    font: bold;
+  }
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display:block;
+    color: #f2f2f2; /*Menu color set up */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;/*remove underline below the link */
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover.hover means which menu item is selected */
+  .topnav a:hover {
+    background-color: rgb(235, 14, 157);
+    color: black;
+  }
+  
+  /* Add a color to the current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(0, 0, 0);
+  }
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .topnav a#logout {
+    background-color: red;
+    color: yellow;
+    text-align: right;
+    float: right;
+  }
+  .container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 650px;
+    height: 500px;
+    margin-top: 90px;
+    background-color: #FBFBFB;
+    display: flex;
+}
+.form-container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 650px;
+    height: 600px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    display: flex;
+ }
+ 
+    h2 {
+      margin-top: 30px;
+      font-weight: normal;
+    }
+ input{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgb(39, 37, 37);
+    background-color: #FBFBFB;
+    position: relative;
+    top: -10px;
+    padding: 5px;
+}
+input:focus {
+    outline: none !important;
+    border-bottom: 1px solid rgb(240, 23, 215);
+    font-size: 14px;
+    font-weight: bold;
+}
+#password:focus{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btn{
+    border: none;
+    background-color: rgb(27, 197, 223);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    width: 120px;
+    margin-top: 15px;
+}
+#btn:hover{
+    box-shadow: 0 0 25px rgba(8, 8, 8, 0.2);
+    background-color: rgb(182, 49, 93);
+}
